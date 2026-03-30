@@ -1,0 +1,15 @@
+=== TechNova Config Backup - 20260327_094944 ===
+
+--- Sauvegarde équipements Cisco IOS ---
+  Backup L3Switch-1 (port 5239)... OK (107 octets → /home/faucheur/gns3/backups/L3Switch-1_20260327_094944.cfg)
+  Backup L3Switch-2 (port 5247)... OK (539 octets → /home/faucheur/gns3/backups/L3Switch-2_20260327_094944.cfg)
+  Backup RouterInternet (port 5211)... OK (1 octets → /home/faucheur/gns3/backups/RouterInternet_20260327_094944.cfg)
+
+--- Résultat ---
+  Succès : 3
+  Échecs : 0
+  Fichiers dans : /home/faucheur/gns3/backups
+
+--- Nettoyage (>10 sauvegardes par nœud) ---
+
+=== Backup terminé : 20260327_094944 ===
