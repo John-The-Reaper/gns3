@@ -88,6 +88,9 @@ Adressage VLAN retenu dans la maquette finale :
 | 50 | SERVEURS | Serveurs internes | Siege | 192.168.50.0/24 | 192.168.50.1 | 192.168.50.2 | 192.168.50.3 |
 
 ### ACL
+
+![alt text](image-1.png)
+
 - ACL inter-VLAN sur switches L3 pour controler les flux internes.
 - Flux autorises : VLAN 10/20/30/40 vers VLAN 50 (DNS 53, DHCP 67/68, SMB 445, HTTP 80).
 - Flux inter-departements (10/20/30/40 entre eux) bloques par defaut.
