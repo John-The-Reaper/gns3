@@ -36,34 +36,34 @@ Il manque le deuxième routeur au niveau du NAT, nous ne l'avions pas encore imp
 - Monitoring de connectivite automatise (script Bash).
 
 ## Devis
-Devis base sur le PDF Devis NovaTech, avec ajout d'un 2e routeur Internet pour la redondance WAN.
+Devis basé sur le PDF Devis NovaTech, avec ajout d'un 2e routeur Internet pour la redondance WAN.
 
 ### 1) Materiel reseau et securite
-| Equipement | Quantite | Prix unitaire | Total |
-|---|---:|---:|---:|
-| Switches de coeur L3 (routage inter-VLAN) | 2 | 1 100 EUR | 2 200 EUR |
-| Switches d'acces L2 (departements + serveurs) | 5 | 350 EUR | 1 750 EUR |
-| Pare-feu (FW-TECHNOVA) | 1 | 650 EUR | 650 EUR |
-| Routeur Internet principal | 1 | 300 EUR | 300 EUR |
-| Routeur Internet secondaire (redondance) | 1 | 300 EUR | 300 EUR |
-| **Sous-total materiel reseau et securite** |  |  | **5 200 EUR** |
+| Equipement | Modèle | Quantité | Prix unitaire | Total |
+|---|---|---:|---:|---:|
+| Switches de coeur L3 (routage inter-VLAN) | Cisco Catalyst 9300X-24Y (48p 10G + 2x 100G) | 2 | 1 100 EUR | 2 200 EUR |
+| Switches d'acces L2 (departements + serveurs) | Cisco Catalyst 9200 (24p 1G RJ45 PoE+) | 5 | 350 EUR | 1 750 EUR |
+| Pare-feu (FW-TECHNOVA) | Cisco ASA 5500-X (5525-X, 6x 1G Eth) | 1 | 650 EUR | 650 EUR |
+| Routeur Internet principal | Cisco ISR 4431 (3x GigaEth WAN, 1x GigaEth LAN) | 1 | 300 EUR | 300 EUR |
+| Routeur Internet secondaire (redondance) | Cisco ISR 4431 (3x GigaEth WAN, 1x GigaEth LAN) | 1 | 300 EUR | 300 EUR |
+| **Sous-total materiel reseau et securite** |  |  |  | **5 200 EUR** |
 
 ### 2) Serveur et infrastructure
-| Equipement | Quantite | Prix unitaire | Total |
-|---|---:|---:|---:|
-| Serveur entreprise standard | 1 | 2 200 EUR | 2 200 EUR |
-| Baie informatique (rack 12U/15U) | 1 | 450 EUR | 450 EUR |
-| Onduleur UPS | 1 | 850 EUR | 850 EUR |
-| **Sous-total serveur et infrastructure** |  |  | **3 500 EUR** |
+| Composant | Modèle/Détail | Quantité | Prix unitaire | Total |
+|---|---|---:|---:|---:|
+| Serveur entreprise standard | Dell PowerEdge R750 (2x Xeon Silver 4314, 512 GB RAM, 4x 1 TB SSD NVMe) | 1 | 2 200 EUR | 2 200 EUR |
+| Baie informatique (rack 12U/15U) | APC Netshelter SX 18U 600mm (avec PDU et cooling) | 1 | 450 EUR | 450 EUR |
+| Onduleur UPS | APC Smart-UPS SRT 6000VA (6kW, durée : ~15 min à charge complète) | 1 | 850 EUR | 850 EUR |
+| **Sous-total serveur et infrastructure** |  |  |  | **3 500 EUR** |
 
 ### 3) Cablage et connectique
-| Composant | Quantite | Prix unitaire | Total |
-|---|---:|---:|---:|
-| Bobines Cat6 UTP (305 m) | 4 | 130 EUR | 520 EUR |
-| Modules SFP+ 10G | 12 | 25 EUR | 300 EUR |
-| Cables DAC SFP+ | 4 | 30 EUR | 120 EUR |
-| Prises murales + cordons de brassage | 60 packs | 8 EUR | 480 EUR |
-| **Sous-total cablage et connectique** |  |  | **1 420 EUR** |
+| Composant | Modèle/Détail | Quantité | Prix unitaire | Total |
+|---|---|---:|---:|---:|
+| Bobines Cat6 UTP (305 m) | Nexans Cat6 UTP solide 0.58mm (305 m/bobine) | 4 | 130 EUR | 520 EUR |
+| Modules SFP+ 10G | Cisco SFP-10G-LR (SMF, 10km) | 12 | 25 EUR | 300 EUR |
+| Cables DAC SFP+ | SFP+ Direct Attach Copper 1m (actif) | 4 | 30 EUR | 120 EUR |
+| Prises murales + cordons de brassage | Keystone Cat6A RJ45 + cordons 0.5m tressés | 60 packs | 8 EUR | 480 EUR |
+| **Sous-total cablage et connectique** |  |  |  | **1 420 EUR** |
 
 ### 4) Recapitulatif budget
 | Poste | Montant |
